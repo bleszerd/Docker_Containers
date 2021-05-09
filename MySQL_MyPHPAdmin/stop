@@ -1,0 +1,3 @@
+#!/bin/bash
+docker stop mysql_myphpadmin_db_1
+docker stop mysql_myphpadmin_app_1

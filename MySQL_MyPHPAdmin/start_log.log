@@ -1,0 +1,27 @@
+Starting mysql_myphpadmin_db_1 ... 
+Starting mysql_myphpadmin_db_1 ... done
+Starting mysql_myphpadmin_app_1 ... 
+Starting mysql_myphpadmin_app_1 ... done
+Attaching to mysql_myphpadmin_app_1
+[36mapp_1  |[0m AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[36mapp_1  |[0m AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[36mapp_1  |[0m [Sun May 09 20:56:32.489590 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.16 configured -- resuming normal operations
+[36mapp_1  |[0m [Sun May 09 20:56:32.489632 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[36mapp_1  |[0m 172.18.0.1 - - [09/May/2021:20:56:40 +0000] "GET /index.php?route=/ HTTP/1.1" 200 6241 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36"
+[36mapp_1  |[0m 172.18.0.1 - - [09/May/2021:20:56:55 +0000] "POST /index.php?route=/ HTTP/1.1" 302 1175 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36"
+[36mapp_1  |[0m 172.18.0.1 - - [09/May/2021:20:56:55 +0000] "GET /index.php?route=/&route=%2F HTTP/1.1" 200 18019 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36"
+[36mapp_1  |[0m 172.18.0.1 - - [09/May/2021:20:56:55 +0000] "GET /themes/pmahomme/css/theme.css?v=5.1.0&nocache=6464918505ltr&server=1 HTTP/1.1" 200 37736 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36"
+[36mapp_1  |[0m 172.18.0.1 - - [09/May/2021:20:56:55 +0000] "POST /index.php?route=/config/get HTTP/1.1" 200 2792 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36"
+[36mapp_1  |[0m 172.18.0.1 - - [09/May/2021:20:56:55 +0000] "POST /index.php?route=/navigation&ajax_request=1 HTTP/1.1" 200 3548 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36"
+[36mapp_1  |[0m 172.18.0.1 - - [09/May/2021:20:56:55 +0000] "POST /index.php?route=/config/get HTTP/1.1" 200 2890 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36"
+[36mapp_1  |[0m 172.18.0.1 - - [09/May/2021:20:56:55 +0000] "POST /index.php?route=/version-check HTTP/1.1" 200 1228 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36"
+[36mapp_1  |[0m 172.18.0.1 - - [09/May/2021:20:56:56 +0000] "POST /index.php?route=/config/set HTTP/1.1" 200 2783 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36"
+[36mapp_1  |[0m 172.18.0.1 - - [09/May/2021:20:57:45 +0000] "GET / HTTP/1.1" 200 18015 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36"
+[36mapp_1  |[0m 172.18.0.1 - - [09/May/2021:20:57:45 +0000] "GET /themes/pmahomme/css/theme.css?v=5.1.0&nocache=6464918506ltr&server=1 HTTP/1.1" 200 37736 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36"
+[36mapp_1  |[0m 172.18.0.1 - - [09/May/2021:20:57:45 +0000] "POST /index.php?route=/config/get HTTP/1.1" 200 2797 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36"
+[36mapp_1  |[0m 172.18.0.1 - - [09/May/2021:20:57:45 +0000] "POST /index.php?route=/navigation&ajax_request=1 HTTP/1.1" 200 3540 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36"
+[36mapp_1  |[0m 172.18.0.1 - - [09/May/2021:20:57:45 +0000] "POST /index.php?route=/config/get HTTP/1.1" 200 2898 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36"
+[36mapp_1  |[0m 172.18.0.1 - - [09/May/2021:20:57:45 +0000] "POST /index.php?route=/version-check HTTP/1.1" 200 1226 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36"
+[36mapp_1  |[0m 172.18.0.1 - - [09/May/2021:20:57:45 +0000] "POST /index.php?route=/config/set HTTP/1.1" 200 2787 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36"
+[36mapp_1  |[0m 172.18.0.1 - - [09/May/2021:20:57:51 +0000] "POST /index.php?route=/logout HTTP/1.1" 302 12281 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36"
+[36mapp_1  |[0m 172.18.0.1 - - [09/May/2021:20:57:51 +0000] "GET /index.php?route=/ HTTP/1.1" 200 6246 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36"
